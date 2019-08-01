@@ -1,0 +1,265 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media screen and (max-width: 1440px) {
+    .agency-club-area .service-icon ul li {
+        left: 10%;
+        top: 88%;
+    }
+    .agency-club-area .service-icon.part3 ul li {
+        left: 50%;
+        top: 88%;
+        margin-left: -20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light:before {
+        height: 75px;
+    }
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light .form-inline {
+        flex-flow: nowrap;
+        align-items: initial;
+    }
+    .header-area .login-icon {
+        padding: 4px 30px;
+    }
+    .looking-for-area select {
+        width: 200px;
+    }
+    .recommended-area .recommened-list ul li {
+        display: inline-block;
+        padding: 15px 15px 15px 0px;
+    }
+    .map .coll {
+        margin-right: 81px;
+        width: 130%;
+    }
+    .form-control {
+        padding: 20px .75rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light:before {
+        display: none;
+    }
+    .show i.fas.fa-search {
+        line-height: 75px;
+    }
+    .recommended-area .filter-icon {
+        margin-left: -5px;
+    }
+    .recommended-area .recommened-list ul li {
+        padding: 8px;
+        display: block;
+        text-align: left;
+    }
+    .header-area .login-icon:after {
+        display: none;
+    }
+    .header-area .login-icon input {
+        width: 169px;
+        top: 14px;
+        ;
+        left: 50px;
+    }
+    .header-area .login-icon a {
+        padding: 0 25px;
+    }
+    .form-area .form-row {
+        margin-left: 0;
+    }
+    .looking-for-area select {
+        width: 100%;
+    }
+    .header-area .login-icon {
+        padding: 4px 10px;
+    }
+    .map .coll {
+        margin-right: 56px;
+        width: 100%;
+    }
+    .country-name select {
+        margin-bottom: 15px;
+    }
+    .recommended-area .filter-icon ul li {
+        margin-bottom: 15px;
+    }
+    .recommended-area .recommened-list ul li {
+        padding: 7px;
+    }
+    .recommened-list {
+        text-align: center;
+    }
+    .country-name select {
+        width: 196px;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media screen and (max-width: 768px) {
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light:after {
+        display: none;
+    }
+    .recommended-area .filter-icon {
+        margin-left: -5px;
+    }
+    .recommended-area .recommened-list ul li {
+        padding: 8px;
+        display: block;
+        text-align: left;
+    }
+    .show i.fas.fa-search {
+        line-height: 75px;
+    }
+    .form-area .form-row {
+        margin-left: 0;
+    }
+    .map::after {
+        top: 10px;
+        right: 70px;
+    }
+    .country-name::after {
+        right: 75px;
+    }
+    .map .coll {
+        margin-right: 81px;
+        width: 75%;
+    }
+    .country-name select {
+        padding: 10px 30px;
+        width: 162px;
+    }
+    input.mail-place {
+        width: 293px;
+    }
+    .service-photo ul li {
+        top: 82%;
+    }
+    .agency-club-area .single-service .service-content p.c-change {
+        font-size: 14px;
+    }
+    .customer-photo {
+        top: 170px;
+        left: 8px;
+    }
+    .agency-club-area .service-icon ul li {
+        left: 22px;
+        top: 82%;
+    }
+    .agency-club-area .service-icon.part3 ul li {
+        left: 50%;
+        top: 84%;
+        margin-left: -25px;
+    }
+    .photo-hover p.show {
+        margin-top: 5px;
+        margin-bottom: 1px;
+    }
+    .content-icon {
+        margin-top: 45px;
+        text-align: center;
+    }
+    .content-icon .reality-icon {
+        margin-left: 0px;
+        text-align: center;
+        float: none;
+    }
+    .content-icon .reality-content {
+        width: 190px;
+    }
+    .last1 {
+        padding-bottom: 39px;
+    }
+    .last {
+        padding-bottom: 39px;
+    }
+    .content3 p {
+        min-height: 74px;
+        padding: 11px 10px;
+    }
+    .last .content4 p {
+        min-height: 74px;
+        padding: 11px 10px;
+    }
+    .service-photo:hover .price {
+        display: none;
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media screen and (max-width: 600px) {
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light:after {
+        display: none;
+    }
+    .header-area .login-icon {
+        padding: 4px 10px;
+    }
+    .show i.fas.fa-search {
+        line-height: 75px;
+    }
+    .customer-photo {
+        top: 135px;
+        left: 8px;
+    }
+    .agency-club-area .service-icon ul li {
+        left: 10px;
+        top: 26%;
+    }
+    .price {
+        right: 100px;
+    }
+    .club-area2 .price {
+        right: 25px;
+    }
+}
+
+@media screen and (max-width: 379px) {
+    .recommended-area .recommened-list ul li {
+        padding: 7px;
+    }
+    .show i.fas.fa-search {
+        line-height: 75px;
+    }
+    .recommened-list {
+        text-align: center;
+    }
+    .map .coll {
+        width: 72%;
+    }
+    .agency-club-area .service-icon ul li {
+        left: 10px;
+        top: 26%;
+    }
+    .icon-float {
+        display: table;
+        margin: 0px -30px;
+    }
+    .content-icon .reality-icon {
+        float: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .photo-hover {
+        right: 17px;
+        left: 18px;
+    }
+    .price {
+        right: 35px;
+    }
+    .photo-hover p.show {
+        right: 50px;
+    }
+    section.dohoot-offer .icon-float {
+        display: table;
+        margin: 0px -30px;
+    }
+    .content-icon .reality-icon {
+        float: none;
+    }
+}
